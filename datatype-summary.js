@@ -35,3 +35,10 @@ const myFunction = function() {
 }
 console.log(typeof myFunction); // number 
 
+// *** Memory
+// Stack(primitive) , Heap(Non-primitive) 
+
+let myYoutubename = "sneha"
+let anotherName = myYoutubename
+console.log(anotherName );
+
